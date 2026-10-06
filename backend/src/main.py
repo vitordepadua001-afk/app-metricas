@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from schema import Register
+from backend.src.schema import Register
 
 app = FastAPI()
 sql = []
