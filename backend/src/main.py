@@ -6,7 +6,7 @@ app = FastAPI()
 sql = []
 
 @app.get("/register/")
-async def view_registers():
+async def view_register():
     return sql
 
 @app.post("/register/")
