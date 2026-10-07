@@ -1,0 +1,12 @@
+.main_class {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.timer_class {
+    font-size: 25px;
+    margin-bottom: auto;
+}
